@@ -1,0 +1,21 @@
+.nav {
+  grid-area: nav;
+  background-color: darkslategrey;
+  padding: 20px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.item {
+  color: white;
+}
+
+div{
+  padding: 5px;
+}
+
+a.active {
+  color: goldenrod;
+}
