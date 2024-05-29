@@ -80,8 +80,10 @@ const ProductList = () => {
               onChange={(e) => handleCategoryFilter(e.target.value)}
             >
               <option value="">All</option>
-              <option value="smartphones">smartphones</option>
-              <option value="laptops">laptops</option>
+              <option value="fragrances">fragrances</option>
+              <option value="beauty">beauty</option>
+              <option value="furniture">furniture</option>
+              <option value="groceries">groceries</option>
             </select>
           </div>
 

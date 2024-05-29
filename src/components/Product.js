@@ -18,7 +18,7 @@ const Product = (props) => {
       <Card.Body className="rounded text-white">
         <NavLink to={`/product/${props.product.id}`} className="link-name">
           <Card.Title as="div">
-            <strong>{props.product.title}</strong>
+            <strong>{props.product.title} - ${props.product.price}</strong>
           </Card.Title>
         </NavLink>
       </Card.Body>
